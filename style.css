@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&family=Staatliches&display=swap');
+body{
+  margin:0vw;
+  font-size:2vw;
+ font-family: 'Oswald', sans-serif; background:url(https://media.macphun.com/img/uploads/customer/blog/1541154551/15411555025bdc2aae54d493.92923804.jpg?q=85&w=1680);
+  background-attachment:fixed;
+  color:white;
+}
+#nav-bar{
+    height: 10%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+
+}
+#bar{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    right: 5vw;
+    margin-top:0vw;
+    
+}
+#bar li{
+    padding:2%;
+    padding-top:0%;
+}
+#bar li a{
+    font-family: 'Staatliches', cursive;
+    font-size:3vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    text-shadow: 0.2vw 0.3vw 0.2vw rgb(0, 0, 0);
+    transition: 0.8s
+}
+#bar a:hover{
+    color:orange;
+}
+#nav-bar div{
+    display: flex;
+    position: absolute;
+    
+    left:2%;
+    height:5vw
+}
+
+#nav-bar div img{
+    height: 100%;
+    width: auto;
+}
+#nav-bar #redes{
+    list-style: none;
+    display: flex;
+    left: 5vw;
+    position: absolute;
+    margin-top:0%;
+    
+	}
+#header #nav-bar #redes li{
+    padding-right: 2%;
+}
+#nav-bar #redes li a{
+    background: url("https://i.ibb.co/cQxYp6f/icon.png") no-repeat 0px -27px;
+    overflow:hidden;
+    font-size: 0vw;
+    text-decoration: none;
+    text-shadow: none;
+    text-indent: -200vw;
+    display:inline-block;
+    width: 30px;
+    height: 29px;
+    border-radius: 50%;
+}
+#nav-bar #redes #deezer a{
+    background-position: 0px -27px;
+}
+#nav-bar #redes #deezer a:hover{
+    background-position: 0px 0px;
+    box-shadow: 0 0 0.5vw white;
+}
+#nav-bar #redes #instagram a{
+    background-position: -29px -27px;
+}
+#nav-bar #redes #instagram a:hover{
+    background-position: -29px 0px;
+    box-shadow: 0 0 0.5vw white;
+}
+#nav-bar #redes #spotify a{
+    background-position: -58px -27px;
+}
+#nav-bar #redes #spotify a:hover{
+    background-position: -58px 0px;
+    box-shadow: 0 0 0.5vw white;
+}
+#nav-bar #redes #tweeter a{
+    background-position: -87px -27px;
+}
+#nav-bar #redes #tweeter a:hover{
+    background-position: -87px 0px;
+    box-shadow: 0 0 0.5vw white;
+}
+#nav-bar #redes #youtube a{
+    background-position: -119px -27px;
+}
+#nav-bar #redes #youtube a:hover{
+    background-position: -119px 0px;
+    box-shadow: 0 0 0.5vw white;
+}
+.foto{
+    display:flex;
+    z-index:-1;
+    position: static;
+    width: 100%;
+    height: auto;
+    left:0%;
+    right: 0%;
+    top:0%;
+    padding: 0%;
+}
+#videos{
+  display:flex;
+  justify-content:center;
+  margin:0 auto;
+}
+.title{
+  margin:0 auto;
+  background: linear-gradient(90deg, rgba(36,35,40,1) 0%, rgba(0,0,0,1) 0%, rgba(45,50,50,1) 100%);
+  text-align:center;
+  color:white;
+  text-shadow: 0.1vw 0vw 0.2vw red;
+  text-transform:uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+#img-div img{
+  border-radius:50%;
+}
+figcaption{
+  color:white;
+  text-shadow: 0.2vw 0.3vw 0.2vw rgb(0, 0, 0);
+  font-family: 'Oswald', sans-serif;
+}
+#shop{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  text-align:center;
+}
+#shop figure img{
+  border-radius:10%;
+  max-width:15vw;
+  transition:0.8s;
+  cursor:pointer;
+}
+#shop figure img:hover{
+  transform:scale(1.5);
+  
+}
+#news p{
+  text-align:center;
+}
+#news form{
+  display:flex;
+  justify-content:center;
+  
+}
+iframe{
+  border-color:black;
+  border-radius:0.2vw;
+  margin-top:0.5vw;
+  margin-bottom:0.5vw;
+}
+form input{
+  width:30vw;
+  font-size:1.5vw;
+  font-family: 'Oswald', sans-serif;
+}
+form button{
+  
+  cursor:pointer;
+    
+}
+footer{
+  background: linear-gradient(90deg, rgba(36,35,40,1) 0%, rgba(0,0,0,1));
+  position:absolute;
+  right:0px;
+  left:0px;
+  margin-top:10vw;
+  height:5vw;
+}
+form #submit{
+  width:5vw;
+}
+@media (max-width: 600px) {
+  #header #nav-bar{
+
+  }
+  #header #nav-bar #redes{
+    margin-top:0vw;
+    transform:scale(0.5);
+  }
+  #video{
+    transform:scale(0.75)
+  }
+  }
